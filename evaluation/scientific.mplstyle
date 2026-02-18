@@ -1,0 +1,50 @@
+# Custom Matplotlib styling
+
+## Colors
+axes.prop_cycle : (cycler('color', ["0d49fb", "e6091c", "26eb47", "8936df", "fec32d", "25d7fd"]))
+
+## Font
+font.size : 26
+mathtext.fontset : dejavuserif
+pdf.fonttype : 42
+
+## x-axis
+xtick.major.size : 6
+xtick.top : True
+xtick.minor.top : False
+xtick.major.top : False
+xtick.labelsize : 24
+
+## y-axis
+ytick.major.size : 6
+ytick.right : True
+ytick.minor.right : False
+ytick.major.right : False
+ytick.labelsize : 24
+
+## Padding
+xtick.major.pad : 5
+ytick.major.pad : 5
+axes.labelsize : 26
+axes.labelpad : 5
+axes.titlepad : 10
+axes.titlesize : 20
+
+## Linewidth
+lines.linewidth : 3
+
+## Legend
+legend.frameon : False
+legend.fontsize : 30
+
+## Grid
+axes.grid : True
+grid.alpha : 0.3
+
+## Figure
+savefig.dpi : 600
+savefig.bbox : tight
+savefig.pad_inches : 0.05
+savefig.format : pdf
+figure.autolayout : True
+figure.figsize : 17, 11
