@@ -5,16 +5,13 @@ This project contains instructions to run the experiments shown in our work. It 
 ## Running the Experiments and Collecting Metrics
 To run the experiments, we need the SeBS framework. 
 
-#### 1. Clone the SeBS repository:
+#### 1. Set up [SeBS](https://github.com/spcl/serverless-benchmarks.git):
 
     git clone https://github.com/spcl/serverless-benchmarks.git
 
 * Requirements:
-    * x86-based machine architecture (SeBS only works on x86-based Linux and other POSIX systems)
-    * Docker (at least version 19)
-    * Python 3.7+ with pip and venv
-    * libcurl and its headers 
-    * Standard Linux tools and zip
+    * All installation requirements listed by [SeBS](https://github.com/spcl/serverless-benchmarks/blob/master/README.md) 
+    * x86-based machine architecture (SeBS may only work on x86-based Linux and other POSIX systems)
 
 #### 2. Replace the config folder
 Use the `config` folder provided in this repository instead of the one in the cloned SeBS directory.
