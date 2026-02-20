@@ -11,7 +11,7 @@ To run the experiments, we need the SeBS framework.
 
 * Requirements:
     * All installation requirements listed by [SeBS](https://github.com/spcl/serverless-benchmarks/blob/master/README.md) 
-    * x86-based machine architecture (SeBS may only work on x86-based Linux and other POSIX systems)
+    * x86-based machine architectures running Linux or other POSIX-compliant operating systems (SeBS may only work on x86-based Linux and other POSIX systems).
 
 #### 2. Replace the config folder
 Use the `config` folder provided in this repository instead of the one in the cloned SeBS directory.
@@ -66,7 +66,7 @@ SeBS provides a command to summarize the metrics collected during all invocation
 
 
 ## Results
-The `results` folder contains a zip file with all results collected by SeBS during our experiments.
+The `results` folder contains a zip file with all the results collected by SeBS during our experiments.
 
 * The `results.csv` file found under each benchmark's directory contains the summary as processed by SeBS. 
 * For full details of the different invocations (including billing data), JSON files are provided for each configuration. 
